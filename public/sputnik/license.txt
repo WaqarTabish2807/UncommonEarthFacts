@@ -1,0 +1,11 @@
+Model Information:
+* title:	PUSHILIN Satellite by Google Poly
+* source:	https://sketchfab.com/3d-models/pushilin-satellite-by-google-poly-b2b537bce78f485a969c0cf431a462c2
+* author:	kulioner (https://sketchfab.com/kulioner)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "PUSHILIN Satellite by Google Poly" (https://sketchfab.com/3d-models/pushilin-satellite-by-google-poly-b2b537bce78f485a969c0cf431a462c2) by kulioner (https://sketchfab.com/kulioner) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

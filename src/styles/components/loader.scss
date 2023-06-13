@@ -1,0 +1,132 @@
+.loader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: var(--color-dark);
+    z-index: 20;
+    transition: opacity 1s ease-in;
+
+    @include medium {
+        height: -moz-available; /* WebKit-based browsers will ignore this. */
+        height: -webkit-fill-available; /* Mozilla-based browsers will ignore this. */
+        height: fill-available;
+    }
+
+    &_started {
+        opacity: 0;
+        pointer-events: none;
+
+        .loader__title,
+        .loader__orbit,
+        .loader__cta {
+            opacity: 0;
+            transition: opacity 0.3s ease-out;
+        }
+    }
+
+    &__title {
+        color: var(--color-main);
+        text-align: center;
+
+        p {
+            font-size: 3vh;
+        }
+
+        h1 {
+            margin-top: 2vh;
+            font-size: 4.9vh;
+        }
+    }
+
+    &__orbit,
+    &__satellite {
+        position: relative;
+        height: 5vh;
+        width: 5vh;
+        border-radius: 50%;
+    }
+
+    &__orbit {
+        animation: orbit_rotation 10s infinite linear reverse;
+    }
+
+    &__satellite {
+        position: absolute;
+        top: 0;
+        &::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: -130%;
+            display: block;
+            height: 1vh;
+            width: 1vh;
+            background-color: var(--color-light);
+            border-radius: 50%;
+        }
+        animation: orbit_rotation 3s infinite linear;
+    }
+
+    &__cta {
+        position: relative;
+        height: 7vh;
+        width: 36vh;
+        max-width: 80%;
+        border: none;
+        border-radius: 2rem;
+        background-color: var(--color-light);
+        color: var(--color-dark);
+        font-size: 2.5vmin;
+        cursor: pointer;
+        overflow: hidden;
+
+        &:hover {
+            p {
+                transform: scale(1.1);
+            }
+        }
+
+        &:disabled {
+            background-color: var(--color-light);
+
+            &:hover {
+                p {
+                    transform: none;
+                }
+            }
+        }
+
+        p {
+            position: relative;
+            transition: transform 0.3s ease-out;
+            font-size: 2vh;
+            z-index: 2;
+        }
+    }
+
+    &__progress {
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background-color: var(--color-main);
+        z-index: 1;
+    }
+}
+
+@keyframes orbit_rotation {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
