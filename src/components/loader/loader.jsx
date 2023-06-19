@@ -6,8 +6,8 @@ export default function Loader({ hasStarted, onStart }) {
     return (
         <section className={`loader ${hasStarted ? "loader_started" : ""}`}>
             <div className="loader__title">
-                <p>Welcome to,</p>
-                <h1>A Satellite Story</h1>
+                <p>Let's unveil the,</p>
+                <h1>Earth's uncommon facts</h1>
             </div>
             <figure className="loader__orbit">
                 <img src="/earth.png" alt="earth" />
