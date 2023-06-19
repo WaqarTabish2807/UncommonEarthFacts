@@ -30,4 +30,4 @@ I’ve created a custom loader with a simple animation. It’s time to add the l
 
 [Satellite Model](https://github.com/WaqarTabish2807/satellite-story/blob/main/public/sputnik/license.txt)
 
-[Earth Model](https://github.com/WaqarTabish2807/satellite-story/blob/main/public/sputnik/license.txt)
+[Earth Model](https://github.com/WaqarTabish2807/satellite-story/blob/main/public/earth/license.txt)
