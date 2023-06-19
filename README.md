@@ -8,7 +8,7 @@ I wanna make a 3d website with scroll animations. I’m currently exploring Reac
 
 Now that I’ve set the project's base, I need some ideas. Let’s try to center the satellite on the screen because that’s the main subject. I’ll make the Earth rotate on a scroll. The story will appear on the top of the screen and change on the scroll.
 
-[Live](https://satellite-story.netlify.app/)
+[Live](https://uncommon-earth-facts.netlify.app/)
 
 ## Features
 
@@ -28,6 +28,6 @@ I’ve created a custom loader with a simple animation. It’s time to add the l
 
 ## Licences
 
-[Satellite Model](https://github.com/rqphy/SatelliteStory/blob/main/public/sputnik/license.txt)
+[Satellite Model](https://github.com/WaqarTabish2807/SatelliteStory/blob/main/public/sputnik/license.txt)
 
-[Earth Model](https://github.com/rqphy/SatelliteStory/blob/main/public/earth/license.txt)
+[Earth Model](https://github.com/WaqarTabish2807/SatelliteStory/blob/main/public/earth/license.txt)
