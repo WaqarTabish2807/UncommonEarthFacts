@@ -29,7 +29,7 @@ export default function Popup() {
 		<article>
 			Discover more projects on my{" "}
 			<a
-				href="https://ferreira-raphael.netlify.app"
+				href="https://waqar-folio2.netlify.app"
 				target="_blank"
 				rel="noopener noreferrer"
 			>
